@@ -21,7 +21,7 @@ export default function Index() {
 								Bienvenue au Cercle Scientifique : Rejoignez une Communauté de
 								passionnés
 							</h1>
-							<p className='py-6 text-lg text-gray-600 w-4/5'>
+							<p className='py-6 text-lg text-gray-600 w-4/5 pb-16'>
 								Plongez dans un univers où la technologie et l’innovation
 								s’unissent. Rejoignez des projets captivants et connectez-vous
 								avec des esprits visionnaires.
