@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 8192 8192">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #ffb900;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <g id="_图层_x5F_1" data-name="图层_x5F_1">
+      <g id="_228534408">
+        <path id="_228534648" class="st0" d="M3103.6,5245.6l2886.9-2886.8c85-85.1,224.7-84.2,308.9,0l278.7,278.7c84.2,84.2,84.2,224.7,0,308.9l-2886.8,2886.9c-84.2,84.2-223.9,85.1-308.9,0l-278.7-278.7c-85.1-85.1-85.1-223.9,0-308.9Z"/>
+        <path id="_228534744" class="st0" d="M2201.8,3486.1l1758.5,1758.5c85,85.1,84,224.9,0,308.9l-278.7,278.7c-84,84-224.9,84-308.9,0l-1758.5-1758.5c-84-84-85-223.9,0-308.9l278.7-278.7c85.1-85,223.9-85,308.9,0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
