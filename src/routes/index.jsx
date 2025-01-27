@@ -8,25 +8,27 @@ export default function Index() {
 			style={{ minHeight: 'calc(100vh - 100px)' }}>
 			<div className='container mx-auto px-4 py-10 pt-30'>
 				<div className='hero-content flex flex-col lg:flex-row-reverse items-center lg:items-start gap-14'>
-					<div className='flex flex-auto w-2/5 justify-center'>
+					<div className='flex flex-auto lg:w-2/5 w-3/5  justify-center'>
 						<img
 							src={SymboleCs}
 							alt='Illustration'
 							className='w-9/10 max-w-2xl rounded-lg '
 						/>
 					</div>
-					<div className='flex flex-auto w-3/5 text-center lg:text-left items-center '>
+					<div className='flex flex-auto lg:w-3/5 w-full text-center lg:text-left items-center'>
 						<div className='w-auto'>
-							<h1 className='text-5xl font-bold text-gray-800 leading-tight'>
+							<h1 className='md:text-5xl text-4xl  font-bold text-gray-800 leading-tight'>
 								Bienvenue au Cercle Scientifique : Rejoignez une Communauté de
 								passionnés
 							</h1>
-							<p className='py-6 text-lg text-gray-600 w-4/5 pb-16'>
+							<p className='py-6 text-lg text-gray-600 lg:w-4/5 pb-16'>
 								Plongez dans un univers où la technologie et l’innovation
 								s’unissent. Rejoignez des projets captivants et connectez-vous
 								avec des esprits visionnaires.
 							</p>
-							<BtnRejoindre />
+							<div className='flex justify-center lg:justify-start'>
+								<BtnRejoindre />
+							</div>
 						</div>
 					</div>
 				</div>
