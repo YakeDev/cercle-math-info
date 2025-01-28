@@ -1,12 +1,19 @@
 import BtnRejoindre from './btnRejoindre'
 import SymboleCs from '../assets/symbole_cercle_mathv2.svg'
 import { FaWhatsapp } from 'react-icons/fa6'
+import heroBg from '../assets/hero-bg.svg'
 function HeroSection() {
 	return (
 		<div>
 			<div
-				className='bg-slate-100 flex flex-col items-center'
-				style={{ minHeight: 'calc(100dvh - 100px)' }}>
+				className='bg-slate-100 flex flex-col items-center mix-blend-multiply'
+				style={{
+					minHeight: 'calc(100dvh - 100px)',
+					backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(${heroBg})`,
+					backgroundSize: 'cover',
+					backgroundPosition: 'center',
+					backgroundRepeat: 'no-repeat',
+				}}>
 				<div className='container mx-auto px-4 pb-20 pt-40'>
 					<div className='hero-content flex flex-col lg:flex-row-reverse items-center lg:items-start gap-14'>
 						<div className='flex flex-auto lg:w-2/5 w-3/5 justify-center'>
