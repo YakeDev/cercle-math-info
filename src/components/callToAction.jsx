@@ -1,13 +1,14 @@
 import { Check } from 'lucide-react'
 import BtnRejoindre from './btnRejoindre'
 import ctaImg from '../assets/whyUs.jpg'
+import { FaWhatsapp } from 'react-icons/fa6'
 
 function CallToAction() {
 	return (
 		<div className='container flex flex-col-reverse lg:flex-row items-center gap-16 md:gap-10 lg:gap-20 mx-auto p-14 py-24 lg:p-28 '>
 			{/* Texte */}
 			<div className='flex flex-col flex-1 items-start space-y-6 order-2 md:order-1 sm:order-1'>
-				<h2 className='text-4xl md:text-5xl font-bold mb-6 text-slate-900'>
+				<h2 className='text-4xl md:text-5xl font-bold mb-6'>
 					Pourquoi nous Rejoindre ?
 				</h2>
 				<p className='text-gray-600 text-base md:text-lg'>
@@ -39,7 +40,14 @@ function CallToAction() {
 						</li>
 					</ul>
 					<div className='mt-16'>
-						<BtnRejoindre />
+						<BtnRejoindre
+							to='https://wa.me/'
+							label='Nous Rejoindre'
+							icon={FaWhatsapp} // No icon
+							bgColor='bg-green-500'
+							hoverColor='hover:bg-green-600'
+							textColor='text-white'
+						/>
 					</div>
 				</div>
 			</div>

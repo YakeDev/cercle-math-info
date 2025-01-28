@@ -18,14 +18,14 @@ const BtnRejoindre = ({
 	borderColorHover = '',
 }) => {
 	return external ? (
-		<a
-			href={to}
+		<Link
+			to={to}
 			target='_blank'
 			rel='noopener noreferrer'
 			className={`flex items-center gap-2 ${bgColor} ${textColor} ${padding} rounded-full ${hoverColor} ${bordered} ${borderColor} ${borderSize} ${borderColorHover} ${textColorHover} transition-colors duration-300 cursor-pointer shadow-md w-fit`}>
 			{Icon && <Icon />} {/* Render the icon if provided */}
 			{label}
-		</a>
+		</Link>
 	) : (
 		<Link
 			to={to}

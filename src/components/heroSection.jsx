@@ -1,5 +1,6 @@
 import BtnRejoindre from './btnRejoindre'
 import SymboleCs from '../assets/symbole_cercle_mathv2.svg'
+import { FaWhatsapp } from 'react-icons/fa6'
 function HeroSection() {
 	return (
 		<div>
@@ -27,7 +28,14 @@ function HeroSection() {
 									avec des esprits visionnaires.
 								</p>
 								<div className='flex justify-center lg:justify-start'>
-									<BtnRejoindre />
+									<BtnRejoindre
+										to='https://wa.me/'
+										label='Nous Rejoindre'
+										icon={FaWhatsapp} // No icon
+										bgColor='bg-green-500'
+										hoverColor='hover:bg-green-600'
+										textColor='text-white'
+									/>
 								</div>
 							</div>
 						</div>

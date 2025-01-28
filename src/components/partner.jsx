@@ -9,25 +9,43 @@ function Partner({ title = 'Nos partenaires' }) {
 	return (
 		<div className='container mx-auto py-28'>
 			<div className='pb-16'>
-				<h2 className='text-5xl font-bold'>{title}</h2>
+				<h2 className='text-4xl md:text-5xl font-bold mb-6 text-slate-900'>
+					{title}
+				</h2>
 			</div>
-			<div className='grid grid-cols-2  md:grid-cols-3  lg:grid-cols-5 gap-8'>
-				<img src={LogoGithub} alt='Logo github' className='w-56' />
-				<img src={LogoGdg} alt='Logo google developers' className='w-56' />
+			<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8'>
+				<img
+					src={LogoGithub}
+					alt='Logo Github'
+					className='w-56 object-contain'
+				/>
+				<img
+					src={LogoGdg}
+					alt='Logo Google Developers'
+					className='w-56 object-contain'
+				/>
 				<img
 					src={LogoMsAmbassador}
-					alt='Logo Miscrosoft Ambassador'
-					className='w-56'
+					alt='Logo Microsoft Ambassador'
+					className='w-56 object-contain'
 				/>
-				<img src={LogOrangeDigital} alt='Logo github' className='w-56' />
-				<img src={LogoAwsEducate} alt='Logo github' className='w-56' />
+				<img
+					src={LogOrangeDigital}
+					alt='Logo Orange Digital Center'
+					className='w-56 object-contain'
+				/>
+				<img
+					src={LogoAwsEducate}
+					alt='Logo AWS Educate'
+					className='w-56 object-contain'
+				/>
 			</div>
 		</div>
 	)
 }
 
 Partner.propTypes = {
-	title: PropTypes.string.isRequired,
+	title: PropTypes.string,
 }
 
 export default Partner
