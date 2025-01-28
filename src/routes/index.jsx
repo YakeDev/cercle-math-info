@@ -5,6 +5,7 @@ import Footer from '../components/footer'
 import Cursor from '../components/Cursor'
 import { useState } from 'react'
 import UpcomingEventSection from '../components/UpcomingEventSection'
+import EventRecent from '../components/EventRecent'
 
 export default function Index() {
 	const [isHovered, setIsHovered] = useState(false)
@@ -13,13 +14,10 @@ export default function Index() {
 		<div>
 			{/* Cursor */}
 			<Cursor isHovered={isHovered} />
-
 			{/* Hero Section */}
 			<HeroSection />
-
 			{/* Upcoming Events */}
 			<UpcomingEventSection />
-
 			{/* Call to action */}
 			<div
 				className='bg-slate-100 mx-auto'
@@ -27,6 +25,11 @@ export default function Index() {
 				onMouseLeave={() => setIsHovered(false)} // Rétrécir le curseur
 			>
 				<CallToAction />
+			</div>
+
+			{/* Last event */}
+			<div className='Section'>
+				<EventRecent />
 			</div>
 
 			{/* Our partner */}
