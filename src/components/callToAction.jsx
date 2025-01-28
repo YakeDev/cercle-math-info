@@ -41,7 +41,7 @@ function CallToAction() {
 					</ul>
 					<div className='mt-16'>
 						<BtnRejoindre
-							to='https://wa.me/'
+							to='https://chat.whatsapp.com/Jt1SDlpq7Ot34Po6hGemya'
 							label='Nous Rejoindre'
 							icon={FaWhatsapp} // No icon
 							bgColor='bg-green-500'

@@ -76,7 +76,7 @@ const Navbar = ({
 				<div className='flex items-center space-x-6'>
 					<div className='hidden sm:flex'>
 						<BtnRejoindre
-							to='https://wa.me/'
+							to='https://chat.whatsapp.com/Jt1SDlpq7Ot34Po6hGemya'
 							label='Nous Rejoindre'
 							icon={FaWhatsapp} // No icon
 							bgColor='bg-green-500'

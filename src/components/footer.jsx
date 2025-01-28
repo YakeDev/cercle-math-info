@@ -23,7 +23,9 @@ const Footer = ({
 					</p>
 					<div className='flex gap-5 mt-8 text-slate-900'>
 						<Link
-							to={'https://linkedin.com'}
+							to={
+								'https://www.linkedin.com/company/cercle-scientifique-math-info/'
+							}
 							className='bg-slate-200 hover:bg-amber-400 rounded-full p-2.5 transition-colors duration-300'>
 							<FaLinkedinIn />
 						</Link>
@@ -75,7 +77,7 @@ const Footer = ({
 
 					<p className='flex items-center gap-2 py-2'>
 						<Mail className='text-amber-400' />
-						<span>contact@csmathinfo.org</span>
+						<span>csmi@csmathinfo.org</span>
 					</p>
 				</div>
 			</div>

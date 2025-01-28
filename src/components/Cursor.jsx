@@ -43,7 +43,7 @@ function Cursor({ isHovered }) {
 		gsap.to(circle.current, {
 			width: size,
 			height: size,
-			duration: 0.2,
+			duration: 0.5,
 			ease: 'power2.out',
 		})
 	}, [size])
