@@ -14,7 +14,7 @@ const Footer = ({
 }) => {
 	return (
 		<footer className='bg-slate-900'>
-			<div className='footer-content grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 items-start container mx-auto  py-24 px-5 gap-12'>
+			<div className='footer-content grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 items-start container mx-auto  py-24 px-5 gap-8'>
 				<div className='lg:col-span-2 md:col-span-1 md:col-start-1 items-start text-slate-400'>
 					<img src={csmLogo} alt='' className='w-48' />
 					<p className='text-slate-400 mt-4'>
