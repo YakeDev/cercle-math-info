@@ -14,10 +14,10 @@ const Footer = ({
 }) => {
 	return (
 		<footer className='bg-slate-900'>
-			<div className='footer-content grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 items-start container mx-auto  py-24 px-5 gap-8'>
+			<div className='footer-content grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 items-start container mx-auto  py-24 px-5 gap-8'>
 				<div className='lg:col-span-2 md:col-span-1 md:col-start-1 items-start text-slate-400'>
 					<img src={csmLogo} alt='' className='w-48' />
-					<p className='text-slate-400 mt-4'>
+					<p className='text-slate-400 mt-4 lg:w-3/5'>
 						Le Cercle Scientifique est une plateforme dynamique pour les
 						étudiants en technologies, informatique et sciences appliquées.
 					</p>
@@ -46,7 +46,7 @@ const Footer = ({
 						</Link>
 					</div>
 				</div>
-				<div className='lg:col-start-4 md:col-start-2 items-start text-slate-400  flex flex-col md:justify-self-center'>
+				<div className='lg:col-start-3 md:col-start-2 items-start text-slate-400  flex flex-col md:justify-self-center'>
 					<h3 className='text-lg font-bold uppercase text-slate-200 mb-4'>
 						Liens utiles
 					</h3>
@@ -65,7 +65,7 @@ const Footer = ({
 						))}
 					</ul>
 				</div>
-				<div className='lg:col-start-5 md:col-start-3 items-start gap-5 text-slate-400'>
+				<div className='lg:col-start-4 md:col-start-3 items-start gap-5 text-slate-400 outline-amber-300 '>
 					<h3 className='text-lg font-bold uppercase text-slate-200 mb-4'>
 						Nos coordonnées
 					</h3>
