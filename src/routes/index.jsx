@@ -35,7 +35,11 @@ export default function Index() {
 			</div>
 
 			{/* Footer */}
-			<div className='Section '>
+			<div
+				className='bg-slate-100 mx-auto'
+				onMouseEnter={() => setIsHovered(true)} // Agrandir le curseur
+				onMouseLeave={() => setIsHovered(false)} // Rétrécir le curseur
+			>
 				<Footer />
 			</div>
 		</div>

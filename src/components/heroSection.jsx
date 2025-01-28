@@ -6,8 +6,8 @@ function HeroSection() {
 		<div>
 			<div
 				className='bg-slate-100 flex flex-col items-center'
-				style={{ minHeight: 'calc(100vh - 100px)' }}>
-				<div className='container mx-auto px-4 pb-10 pt-44'>
+				style={{ minHeight: 'calc(100dvh - 100px)' }}>
+				<div className='container mx-auto px-4 pb-20 pt-40'>
 					<div className='hero-content flex flex-col lg:flex-row-reverse items-center lg:items-start gap-14'>
 						<div className='flex flex-auto lg:w-2/5 w-3/5 justify-center'>
 							<img

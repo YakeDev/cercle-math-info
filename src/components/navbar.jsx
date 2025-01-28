@@ -74,15 +74,16 @@ const Navbar = ({
 
 				{/* Action Buttons */}
 				<div className='flex items-center space-x-6'>
-					<BtnRejoindre
-						to='https://wa.me/'
-						label='Nous Rejoindre'
-						icon={FaWhatsapp} // No icon
-						bgColor='bg-green-500'
-						hoverColor='hover:bg-green-600'
-						textColor='text-white'
-					/>
-
+					<div className='hidden sm:flex'>
+						<BtnRejoindre
+							to='https://wa.me/'
+							label='Nous Rejoindre'
+							icon={FaWhatsapp} // No icon
+							bgColor='bg-green-500'
+							hoverColor='hover:bg-green-600'
+							textColor='text-white'
+						/>
+					</div>
 					{isMenuClicked ? (
 						<X
 							onClick={updateMenu}
