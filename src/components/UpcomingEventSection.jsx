@@ -5,9 +5,9 @@ import imgEvent3 from '../assets/img_event_3.jpg'
 
 function UpcomingEventSection() {
 	return (
-		<div className='container mx-auto px-4 py-28'>
+		<div className='container mx-auto px-4 py-28 dark:bg-slate-900'>
 			<div className='pb-8'>
-				<h2 className='text-4xl md:text-5xl font-bold mb-6 text-slate-900'>
+				<h2 className='text-4xl md:text-5xl font-bold mb-6 text-slate-900 dark:text-white'>
 					Prochains événements
 				</h2>
 			</div>
@@ -21,7 +21,6 @@ function UpcomingEventSection() {
 					date='25 Janv 2025'
 					heure='20h00'
 					adress='Google Meet'
-					// badges={['Technologie', 'Innovation']}
 				/>
 				<EventCard
 					title='Conférence AI'
@@ -30,7 +29,6 @@ function UpcomingEventSection() {
 					date='25 Fev 2025'
 					heure='20h00'
 					adress='Google Meet'
-					// badges={['AI', 'Conférence']}
 				/>
 				<EventCard
 					title='Webinaire React 18'
@@ -39,7 +37,6 @@ function UpcomingEventSection() {
 					date='25 Mars 2025'
 					heure='20h00'
 					adress='Google Meet'
-					// badges={['AI', 'Conférence']}
 				/>
 			</div>
 		</div>

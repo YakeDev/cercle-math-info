@@ -9,7 +9,7 @@ function Partner({ title = 'Nos partenaires' }) {
 	return (
 		<div className='container mx-auto py-28'>
 			<div className='pb-16'>
-				<h2 className='text-4xl md:text-5xl font-bold mb-6 text-slate-900'>
+				<h2 className='text-4xl md:text-5xl font-bold mb-6 text-slate-900 dark:text-white'>
 					{title}
 				</h2>
 			</div>

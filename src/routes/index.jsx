@@ -11,38 +11,42 @@ export default function Index() {
 	const [isHovered, setIsHovered] = useState(false)
 
 	return (
-		<div>
+		// Ajoute la classe dark:bg pour le fond général
+		<div className='dark:bg-slate-900 transition-colors duration-300'>
 			{/* Cursor */}
 			<Cursor isHovered={isHovered} />
+
 			{/* Hero Section */}
-			<HeroSection />
+			<div className='dark:bg-slate-800'>
+				<HeroSection />
+			</div>
+
 			{/* Upcoming Events */}
 			<UpcomingEventSection />
+
 			{/* Call to action */}
 			<div
-				className='bg-slate-100 mx-auto'
-				onMouseEnter={() => setIsHovered(true)} // Agrandir le curseur
-				onMouseLeave={() => setIsHovered(false)} // Rétrécir le curseur
-			>
+				className='bg-slate-100 dark:bg-slate-900 mx-auto transition-colors duration-300'
+				onMouseEnter={() => setIsHovered(true)}
+				onMouseLeave={() => setIsHovered(false)}>
 				<CallToAction />
 			</div>
 
 			{/* Last event */}
-			<div className='Section'>
+			<div className='Section dark:bg-slate-900'>
 				<EventRecent />
 			</div>
 
 			{/* Our partner */}
-			<div className='Section'>
+			<div className='Section dark:bg-slate-900'>
 				<Partner />
 			</div>
 
 			{/* Footer */}
 			<div
-				className='bg-slate-100 mx-auto'
-				onMouseEnter={() => setIsHovered(true)} // Agrandir le curseur
-				onMouseLeave={() => setIsHovered(false)} // Rétrécir le curseur
-			>
+				className='bg-slate-100 dark:bg-slate-800 mx-auto transition-colors duration-300'
+				onMouseEnter={() => setIsHovered(true)}
+				onMouseLeave={() => setIsHovered(false)}>
 				<Footer />
 			</div>
 		</div>
